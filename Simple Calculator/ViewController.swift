@@ -92,10 +92,7 @@ class ViewController: UIViewController {
         playSound()
         
         if currentOperation != Operation.Empty {
-            //Run some math
-            
-            //A user selected an operator, but then selected another operator without
-            //first entering a number
+           
             if runningNumber != "" {
                 rightValStr = runningNumber
                 runningNumber = ""
